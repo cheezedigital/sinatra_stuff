@@ -1,0 +1,33 @@
+#wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#wrap h1 {
+  font-weight: 300;
+  font-family: Helvetica;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+}
+.row {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.column {
+  border: 1px solid #333333;
+  padding: 8px;
+  width: 150px;
+  height: 150px;
+  font-size: 0;
+  float: left;
+  margin-right: 15px;
+  background-color: red;
+}
+.column img {
+  width: 100px;
+  height: 100px;
+}
+
+#mountain {
+  max-width: 50%;
+}

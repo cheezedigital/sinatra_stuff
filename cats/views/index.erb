@@ -1,0 +1,18 @@
+<h1>All About Cats</h1>
+<div class="photo">
+  <img src="http://cdn.hdw9.com/wp-content/uploads/2013/08/mountain-lion-cat-wallpaper.jpg" />
+</div>
+
+<div class="photo">
+ <img src="http://4.bp.blogspot.com/-COKwaEa4NBY/T1D0-N-9quI/AAAAAAAACV4/QNKyDyiWPXU/s1600/Mountain%2BLion-HIN06937.jpg" />
+</div>
+
+<% unless @width.to_i.zero? && @height.to_i.zero? %>
+  <div class="photo">
+    <img src="http://placekitten.com/<%= @width %>/<%= @height %>" />
+  </div>
+<% end %>
+
+<br clear="all" />
+<a href="/me">Click here to learn more about me</a>
+<a href"/">Back Home</a>
