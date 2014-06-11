@@ -25,3 +25,6 @@ var formValidator = function() {
 };
 
 window.onload = windowLoaded;
+
+//find the name field
+//if its 

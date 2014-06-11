@@ -1,0 +1,10 @@
+#form {
+  background-image: url("/images/primus2.jpg");
+  width: 100%;
+}
+#image {
+  background-image:url("/images/primus2.jpg")
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+}
